@@ -1,0 +1,65 @@
+.room-card-container {
+  width: 200px;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  box-shadow: 6px 6px 6px #d0d0d0;
+position: relative;
+  &:hover {
+    transform: scale(1.1); 
+  }
+
+
+
+}
+
+.room-img {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+.room-img > img {
+  width: 80%;
+}
+
+.room-content {
+  width: 95%;
+  height: 17%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.room-content :first-child {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.matched-text {
+    color: #2BAC1B; 
+  }
+
+  .r-status{
+    position: absolute;
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+    top: -5px;
+    right: 10px;;
+  }
+
+  .available {
+    color: green; 
+  }
+  
+  .not-available {
+    color: red; 
+  }

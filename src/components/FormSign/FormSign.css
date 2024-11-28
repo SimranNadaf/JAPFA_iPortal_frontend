@@ -1,0 +1,18 @@
+.form-sign {
+  display: flex;
+
+}
+
+.form-sign > table {
+  width: 702px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+.form-sign > table td {
+  border-right: 1px solid black;
+  text-align: center;
+}
+.authority > th{
+    text-align: center;
+}

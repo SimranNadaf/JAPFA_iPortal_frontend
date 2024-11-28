@@ -1,0 +1,274 @@
+
+.success-modal,
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.success-modal-content,
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  gap: 10px;
+  width: 30%;
+}
+
+.popup-t {
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+align-content: center;
+color: black;
+}
+.pop-t {
+  border: none;
+  width: 10%;
+ 
+ 
+}
+
+.success-modal-content h3,
+.popup-content h3 {
+  margin-bottom: 15px;
+}
+
+.success-modal-content button,
+.popup-content button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.success-modal-content button:hover,
+.popup-content button:hover {
+  background-color: #0056b3;
+}
+
+.create-meeting-container {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+}
+
+.create-left {
+  width: 25%;
+  height: 100%;
+  background-color: #002f34;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: white;
+}
+
+.create-left > h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.create-left > input {
+  width: 200px;
+  height: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: #2c666c;
+  color: white;
+  box-shadow: 3px 3px 3px #00454d;
+  padding: 5px;
+}
+
+.create-left > button {
+  width: 210px;
+  height: 30px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: #2bac1b;
+  color: white;
+  padding: 5px;
+  border: none;
+  border: 1px solid white;
+  box-shadow: 3px 3px 3px #737272;
+}
+
+.card-data {
+  width: 95%;
+  height: 95%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.create-right {
+  width: calc(100% - 25%);
+  height: 100%;
+  background-color: #f7f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.create-right > p {
+  position: absolute;
+  top: 0px;
+  left: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ff5858;
+}
+
+.meeting-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meeting-modal-content {
+  background: #f7f4f4;
+  border-radius: 8px;
+  width: 400px;
+  padding: 15px;
+  box-shadow: 3px 3px 3px #d0d0d0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meeting-modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  column-gap: 10px;
+}
+
+.modal-buttons button {
+  margin: 0 5px;
+}
+
+.start-end-container {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for select elements */
+.select-container {
+  position: relative;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.select-container select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('data:image/svg+xml;utf8,<svg fill="%23000" height="10" viewBox="0 0 24 24" width="10" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>')
+    no-repeat right 10px center/10px 10px;
+}
+
+.select-container select:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.select-container select::-ms-expand {
+  display: none;
+}
+
+.select-container select option[disabled] {
+  color: #aaa;
+}
+
+.select-container select option:checked {
+  background: #eee;
+}
+
+
+.date-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.button-container button:first-child {
+  margin-left: 0;
+}
+
+.button-container button.reset-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.button-container button.create-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button-container button.close-btn {
+  background-color: #ccc;
+  color: black;
+}
+
+
+

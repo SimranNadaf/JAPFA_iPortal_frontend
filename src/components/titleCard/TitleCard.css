@@ -1,0 +1,46 @@
+.card-container {
+  width: 160px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  box-shadow: 6px 6px 6px #d0d0d0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    transform: scale(1.1); 
+    background-color: #2bac1b;
+    color: white;
+  }
+
+  /* Click effect */
+  &.active {
+    background-color: #2bac1b; 
+  }
+}
+
+.card-container img {
+  padding: 0;
+  margin-bottom: 2px;
+}
+
+.tiles-title {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .card-container {
+    width: 150px;
+    height: 100px;
+    background-color: rgb(200, 249, 249);
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 6px 6px 6px #d0d0d0;
+    box-sizing: border-box;
+  }
+}

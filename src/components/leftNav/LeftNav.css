@@ -1,0 +1,5 @@
+.eft-nav-container{
+    width: 20vw;
+    height: calc(100% - 80px);
+    background-color: #98f5ff;
+}

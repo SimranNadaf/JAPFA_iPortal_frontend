@@ -1,0 +1,30 @@
+.vpn-access-form-main-container{
+  min-height: 100vh;
+}
+.blank-space{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 10px;
+}
+
+.requirement > table{
+  width:100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.small-box{
+  width: 15%;
+  
+ }
+
+
+
+.requirement > table > tbody> tr > th{
+text-align: center;
+}
+
+.purpose{
+  font-size: 14px;
+}

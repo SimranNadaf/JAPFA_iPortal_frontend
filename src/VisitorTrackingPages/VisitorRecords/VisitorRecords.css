@@ -1,0 +1,103 @@
+.visitor-record-container {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #f7f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.v-r-inside-box {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.v-r-inside-box > p {
+  position: absolute;
+  font-size: 22px;
+  font-weight: 600;
+  top: -4px;
+  left: 45%;
+  color: #2A7592;
+}
+.v-r-inside-box > select {
+  position: absolute;
+  top: 15px;
+  right: 15%;
+  width: 120px;
+  height: 30px;
+  border-radius: 6px;
+  color: white;
+  background-color: #FF5858;
+  box-shadow:5px 5px 5px #d0d0d0;
+  border: none;
+  padding: 0px 2px;
+  outline: none;
+  font-weight: 600;
+  
+}
+
+.v-r-inside-box > button {
+  position: absolute;
+  top: 15px;
+  right: 2.5%;
+  width: 120px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #008000;
+  color: white;
+  box-shadow:5px 5px 5px #d0d0d0;
+  border: none;
+  font-weight: 600;
+}
+.my-t{
+  width: 85%;
+  border: 1px solid white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-collapse: collapse;
+  border-bottom: 8px;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+
+
+
+.bg-t{
+  padding: 10px;
+  text-align: center;
+  color:  white;
+  background-color: #2A7592;
+}
+
+.my-colr{
+  background-color: #dcf0f8;
+}
+
+.my-td{
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+.date-picker{
+  width: 150px;
+  outline: none;
+  height: 25px;
+  text-align: center;
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #d0d0d0;
+background-color: #f4f2f2;
+}
+
+.date-box{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  
+}

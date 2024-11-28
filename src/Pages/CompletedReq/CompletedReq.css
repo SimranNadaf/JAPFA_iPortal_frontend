@@ -1,0 +1,91 @@
+.completed-req-container {
+    padding: 0px 20px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .title-instuctions-completedReq {
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title-instuctions-completedReq > h2 {
+    width: 40%;
+  }
+  
+  .completed-req-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .completed-req-table th,
+  .completed-req-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .completed-req-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+  }
+  
+  .completed-req-table button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  
+  .completed-req-table button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .icon-legend-completedReq {
+    width: 100vw;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon-legend__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon-legend-completedReq__icon--pending {
+    color: orange;
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  .icon-legend-completedReq__icon--approved {
+    color: green;
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  .icon-legend-completedReq__icon--canceled {
+    color: red;
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  .icon-legend-completedReq__icon--commented {
+    color: blue;
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  
+  .icon-legend-completedReq__text {
+    font-size: 16px;
+  }
+  

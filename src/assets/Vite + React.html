@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Vite + React_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite + React</title>
+  <style type="text/css" data-vite-dev-id="D:/my Projects/Form-System/frontend/src/Pages/Login/LoginPage.css">.login-main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color:#002F34;
+  color: white;
+}
+
+.login-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* sborder: 1px solid #d0d0d0; */
+}
+
+.login-left img {
+  width: 80%;
+  height: 80%;
+}
+
+.login-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.text-content {
+  padding: 20px;
+  margin: 20px;
+}
+
+.page-title {
+  font-size: 35px;
+  font-weight: 500;
+}
+p {
+  font-size: 18px;
+}
+
+.input-group {
+  width: 260px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px #0A393E;
+}
+
+.input-group input {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: none;
+  background-color: #1D5055;
+  font-size: 16px;
+  padding-left: 15px;
+  color: white;
+  outline: none;
+}
+
+.login-btn {
+  width: 260px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #98F5FF;
+  box-shadow: 5px 5px 5px #2B6066;
+  margin-top: 10px;
+  color: #002F34;
+}
+
+.bottom-item{
+    font-size: 16px;
+    margin-top: 15px;
+  
+}
+
+.bottom-item a{
+    text-decoration: none;
+    color: #98F5FF;
+}
+
+
+@media (max-width: 768px) {
+    .login-main-container {
+      flex-direction: column;
+      justify-content: end;
+      align-items: center;
+    
+    }
+    .page-title{
+     margin: 0px;
+       
+    }
+    
+    .text-content{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .login-left,
+    .login-right {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .login-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    .login-left img {
+
+       
+      width: 80%;
+      height: 70%;
+      max-width: 300px; /* Adjust image size for smaller screens */
+    }
+  
+    .input-group,
+    .login-btn {
+      width: 100%;
+      max-width: 300px; /* Adjust input and button width for smaller screens */
+    }
+  }</style><style type="text/css" data-vite-dev-id="D:/my Projects/Form-System/frontend/src/Pages/RegisterPage/RegisterPage.css">.register-main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #002f34;
+  color: white;
+}
+
+.register-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.register-left img {
+  width: 80%;
+  height: 80%;
+}
+
+.register-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.text-content {
+  padding: 20px;
+  margin: 20px;
+}
+
+.page-title {
+  font-size: 35px;
+  font-weight: 500;
+}
+p {
+  font-size: 18px;
+}
+
+.input-group {
+  width: 260px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px #0a393e;
+}
+
+.input-group input {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: none;
+  background-color: #1d5055;
+  font-size: 16px;
+  padding-left: 15px;
+  color: white;
+  outline: none;
+}
+
+.register-btn {
+  width: 260px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #98f5ff;
+  box-shadow: 5px 5px 5px #2b6066;
+  margin-top: 10px;
+  color: #002f34;
+}
+
+.bottom-item {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.bottom-item a {
+  text-decoration: none;
+  color: #98f5ff;
+}
+
+.input-group select {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: none;
+  background-color: #1d5055;
+  font-size: 16px;
+  padding-left: 15px;
+  color: white;
+  appearance: none;
+  outline: none;
+}
+
+.input-group select option {
+  background-color: #1d5055;
+  color: white;
+}
+
+.input-group select:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .register-main-container {
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+  }
+  .page-title {
+    margin: 0px;
+  }
+
+  .text-content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .register-left,
+  .register-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .register-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .register-left img {
+    width: 80%;
+    height: 70%;
+    max-width: 300px;
+  }
+
+  .input-group,
+  .register-btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+</style><style type="text/css" data-vite-dev-id="D:/my Projects/Form-System/frontend/src/Pages/Welcome/Welcome.css">/* WelcomeScreen.css */
+.welcome-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    font-size: 2rem;
+  }
+  </style><style type="text/css" data-vite-dev-id="D:/my Projects/Form-System/frontend/src/index.css">body{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}</style></head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./Vite + React_files/main.jsx"></script>
+  
+
+</body></html>

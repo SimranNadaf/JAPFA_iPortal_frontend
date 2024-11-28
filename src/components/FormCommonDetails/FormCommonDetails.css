@@ -1,0 +1,19 @@
+
+.form-common-details > table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.form-common-details> table td {
+    border-right: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .form-common-details> table th {
+   width: 20%;
+  }
+
+  

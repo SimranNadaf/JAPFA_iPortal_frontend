@@ -1,0 +1,38 @@
+/* WelcomeScreen.css */
+.welcome-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #643A9B;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .welcome-screen img {
+    width: 400px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .welcome-screen {
+      font-size: 1.5rem;
+    }
+  
+    .welcome-screen img {
+      width: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .welcome-screen {
+      font-size: 1.2rem;
+    }
+  
+    .welcome-screen img {
+      width: 200px;
+    }
+  }
+  

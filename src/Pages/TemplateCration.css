@@ -1,0 +1,34 @@
+.asset-form-creation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.asset-form-main-content > table{
+    width: 702px;
+    border-collapse: collapse;
+    border: 1px solid black;
+   
+}
+
+
+.asset-form-main-content > table > tbody > tr > th{
+    width: 18%;
+}
+
+.asset-form-main-content  td{
+    border-right: 1px solid black;
+}
+
+.blank{
+    height: 15px;
+}
+.second-table{
+    width: 702px;
+    border-collapse: collapse;
+    
+}
+.small-width{
+    width: 16%;
+}
+

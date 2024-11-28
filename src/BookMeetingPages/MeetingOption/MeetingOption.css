@@ -1,0 +1,20 @@
+.meeting-options-container {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+}
+
+
+.meeting-options-container > .meet-right {
+  width: calc(100% - 20%);
+  background-color: #f7f4f4;
+}
+
+
+.meet-right{
+    display: flex;
+    justify-content: flex-start;
+    padding: 3%;
+    column-gap: 20px;
+    
+}

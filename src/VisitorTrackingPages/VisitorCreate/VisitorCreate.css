@@ -1,0 +1,188 @@
+.visitor-create-container {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.visit-c-left {
+  width: 23%;
+  height: 100%;
+  background-color: #2b6066;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.visit-c-right {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f4f4;
+}
+
+.visit-search {
+  width: 95%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#v-input-group {
+  width: 250px;
+  height: 35px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #d0d0d0;
+}
+
+#v-input-group > input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  text-align: center;
+}
+
+.visitor-table {
+  width: 95%;
+  height: 80%;
+  overflow-y: auto;
+  margin-top: 25px;
+  background-color: #f7f4f4;
+}
+
+.visitor-table > table {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #d0d0d0;
+  border-collapse: collapse;
+  text-align: center;
+}
+.visitor-table th {
+  text-align: center;
+  border: 1px solid #d0d0d0;
+  padding: 10px;
+}
+
+.visitor-table td {
+  border: 1px solid #d0d0d0;
+}
+
+.v-details {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.v-details > p {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+.v-form {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.v-lable-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.v-lable-name > p {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.v-input-group {
+  width: 220px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #36777e;
+}
+
+.v-input-group > input {
+  width: 95%;
+  height: 70%;
+  outline: none;
+  border: none;
+  text-align: center;
+}
+
+.v-submit-btn {
+  width: 100%;
+  height: 30px;
+  background-color: #31be1f;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #36777e;
+  border: 1px solid white;
+}
+
+/* VisitorCreate.css */
+
+
+.out-time-container {
+  display: flex;
+
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  gap: 8px; 
+  padding: 4px;
+}
+
+.out-time-container > input {
+  width: 92%;
+  height: 70%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px #d0d0d0;
+  text-align: center;
+  padding: 2px;
+  border: 1px solid #d0d0d0;
+}
+
+.out-time-container input,
+.out-time-container button {
+  width: 48%; 
+}
+
+.out-time-container button {
+  cursor: pointer; 
+  background-color: #2da91c; 
+  color: white; 
+  border: none; 
+  padding: 4px; 
+  box-shadow: 5px 5px 5px #d0d0d0;
+  border-radius: 4px;
+}
