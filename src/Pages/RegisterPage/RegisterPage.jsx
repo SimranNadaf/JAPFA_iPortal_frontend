@@ -13,11 +13,11 @@ function RegisterPage() {
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
 
-  const saveCredentialsToLocalStorage = () => {
-    localStorage.setItem("email", email);
-    localStorage.setItem("username", username);
-    localStorage.setItem("password", password);
-  };
+  // const saveCredentialsToLocalStorage = () => {
+  //   localStorage.setItem("email", email);
+  //   localStorage.setItem("username", username);
+  //   localStorage.setItem("password", password);
+  // };
 
   async function fetchDepartmentHeadName(department, location) {
     if (department && location) {
@@ -80,8 +80,15 @@ function RegisterPage() {
       }
 
       await sendVerificationEmail(email);
+      var data = await response.json();
+      console.log(data.jwt);
+      var tokenData = {
+        value: data.jwt,
+        expiry: Date.now() + (24 * 60 * 60 * 1000)
+      };
 
-      saveCredentialsToLocalStorage();
+      localStorage.setItem("token", JSON.stringify(tokenData));
+      // saveCredentialsToLocalStorage();
 
       console.log("Registration successful!");
       setUsername("");
